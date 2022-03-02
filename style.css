@@ -1,0 +1,248 @@
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+#image{
+    width: 100%;
+    height: 100%;
+
+}
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;  
+}
+
+body{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+}
+.text{
+    color: rgb(48, 48, 48);
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 10vw;
+    position:sticky;
+    top: 10%;
+    justify-content: center;
+    text-align: center;
+    top:8rem;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.83;
+
+}
+#aboutUs h2{
+    text-align: center;
+}
+#aboutUs{
+    margin: 15px;
+    font-weight: lighter;
+}
+
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.navigationBar{
+    width: 100%;
+    position: fixed;
+    background:-moz-linear-gradient(0deg, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 99%); 
+    background:-webkit-linear-gradient(0deg, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 99%);
+    background:-o-linear-gradient(0deg, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#4F4F4F', GradientType=1 );
+    background:-ms-linear-gradient(0deg, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 99%);
+    background:linear-gradient(0deg, rgba(255, 255, 255, 0) 1%, rgba(255, 255, 255, 1) 99%);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+}
+
+.register li{
+    background-color: rgb(253, 253, 253);
+    font-size: larger;
+    margin: 0px 5px ;
+    padding: 3px 20px;
+    border: 0px solid black;
+    border-radius: 5px ;
+    color: rgb(250, 0, 0,); 
+
+}
+#login{
+    transition: all 0.5s ease;
+    
+}
+.li{
+    padding: 5px 0px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+.li:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+#login a{
+    text-decoration: none;
+    color: rgb(255, 0, 0,);
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+#login a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#login:hover{
+    background-color: rgb(252, 0, 0, 0.5);
+}
+
+.UList{
+    list-style-type: none;
+    display: flex;  
+    margin: 10px;
+}
+.list{
+    margin: auto 15px;
+    font-size: 17px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease;
+    font-weight: 230px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.list a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.list:first-child{
+    margin: 5px 15px;
+}
+.body{
+    height: 750px;
+    background-image: url(01.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}   
+
+.signup{
+    border: 0px solid black;
+    z-index: 1;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    top: 70%;
+    left: 44%;
+    padding: 10px;
+    text-align: center;
+    position: -webkit-sticky;
+    position:absolute;
+    margin: auto;
+    font-size: 1.5rem;
+
+    background:-moz-linear-gradient(90deg, rgba(255, 0, 46, 1) 0%, rgba(238, 130, 238, 1) 100%); 
+    background:-webkit-linear-gradient(90deg, rgba(255, 0, 46, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    background:-o-linear-gradient(90deg, rgba(255, 0, 46, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee82ee', endColorstr='#FF002E', GradientType=0 );
+    background:-ms-linear-gradient(90deg, rgba(255, 0, 46, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    background:linear-gradient(90deg, rgba(255, 0, 46, 1) 0%, rgba(238, 130, 238, 1) 100%);
+    cursor: pointer;
+
+}
+.title{
+    font-size: larger;
+    color: blueviolet;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+}
+.signup a{
+    text-decoration: none;
+    color: rgb(73, 50, 83);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.signup a:hover{
+    color: rgb(5, 5, 5);
+}
+.element{
+    color: red;
+    width: 33%;
+    border: 1px solid red;
+}
+
+@media (max-width: 500px) {
+    .signup{
+        top: 60%;
+        left: 21%;
+    }
+
+    .text{
+        margin: 0px 10px;
+        top: 15%;
+        font-size: 65px;
+    }
+
+}
+
+@media (min-width: 600px){
+    .tt{
+        font-size: larger;
+    }
+}
+.tt{
+    font-size: 10px;
+    font-weight: lighter;
+
+}
+.one{
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px;
+}
+table{
+    margin: 0px;
+    width: 100%;
+}
+table tr td {
+    align-items: center;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    width: 40%;
+    height: 40%;
+}
+table tr{
+    border: 1px solid black;
+}
+
+table tr td img{
+    border-radius: 7px;
+
+}
+
+footer{
+    width: 100%;
+    height: 40%;
+}
